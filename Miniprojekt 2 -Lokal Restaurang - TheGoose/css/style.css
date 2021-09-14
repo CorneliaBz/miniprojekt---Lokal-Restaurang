@@ -1,0 +1,247 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 { 
+    text-transform: uppercase;
+    color: rgb(63, 63, 63);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: grey;
+    font-size: small;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(243, 242, 242);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav img {
+    width: 70%;
+    /* display: block; */
+    margin-bottom: 35px;
+}
+
+nav a {
+    /* display: inline-block; */
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: large;
+    color: darkgrey;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+nav a:hover {
+    color: black;
+}
+
+main {
+    margin-left: 250px;
+}
+
+article {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.containertext {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rowtext {
+    text-align: center;
+    flex-basis: 500px;
+}
+
+.rowtext img {
+    width: 100%;
+    height: auto;
+}
+
+.rowtext a {
+    text-decoration: none;
+    border: solid rgb(63, 63, 63) 3px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(63, 63, 63);;
+}
+
+.rowtext a:hover {
+    text-decoration: none;
+    border: solid rgb(63, 63, 63) 3px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background: rgb(63, 63, 63);
+    color: grey;
+}
+
+.frontimage {
+    background-image: url("../img/frontbg.png");
+    background-color: #cccccc;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+}
+
+.frontimage h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 0px;
+    padding-bottom: 50px;
+    border-bottom: white solid 2px;
+}
+
+.frontimage h4 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 0px;
+    padding-top: 50px;
+    border-top: white solid 2px;
+}
+
+.frontimagetext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.frontimagemeny {
+    background-image: url("../img/ceasarsallad.jpg");
+    background-color: #cccccc;
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.frontimagekontakt {
+    background-image: url("../img/frontbg.png");
+    background-color: #cccccc;
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menycontaineritems {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.menytitle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.menyitem {
+    flex-basis: 300px;
+}
+
+.menyitem h4, h5 {
+    text-transform: uppercase;
+    color: rgb(63, 63, 63);
+    margin: 0px;
+    margin-bottom: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menyitem p {
+    color: grey;
+    margin-top: 0px;
+    font-size: small;
+}
+
+.underline {
+    border-bottom: grey solid 2px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: rgb(63, 63, 63);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 250px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+    font-size:small;
+}
+
+footer p {
+    color: rgb(131, 131, 131);
+    text-align: center;
+    font-size:xx-small;
+    text-decoration: none;
+}
+
+.containerfooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerfooter p {
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+    margin: 2px;
+}
+
+.containerfooter a {
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+}
+
+.containerfooter a:hover {
+    text-decoration: none;
+    color:white;
+}
